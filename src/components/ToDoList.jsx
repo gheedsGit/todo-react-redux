@@ -4,7 +4,7 @@ import ToDoItem from "./to-do-item/ToDoItem";
 import Container from "@mui/material/Container";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import { selectToDoArr } from "../../store/selectors";
+import { selectToDoArr } from "../store/selectors";
 
 const ToDoList = () => {
   const todos = useSelector(selectToDoArr);
